@@ -7,24 +7,24 @@ class ColumnRow extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
-      appBar: AppBar(title: Text("Contoh Column Widget")),
+      appBar: AppBar(title: const Text("Contoh Column Widget")),
       body: Row(
         children: [
           Container(
             color: Colors.purpleAccent,
-            child: FlutterLogo(
+            child: const FlutterLogo(
               size: 90.0,
             ),
           ),
           Container(
             color: Colors.blueAccent,
-            child: FlutterLogo(
+            child: const FlutterLogo(
               size: 90.0,
             ),
           ),
           Container(
             color: Colors.orangeAccent,
-            child: FlutterLogo(
+            child: const FlutterLogo(
               size: 90.0,
             ),
           ),

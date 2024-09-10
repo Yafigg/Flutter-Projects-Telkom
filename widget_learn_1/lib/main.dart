@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widget_learn_1/widget-row_column.dart';
+import 'package:widget_learn_1/row_column.dart'; // Update this import statement
 
 void main() {
   runApp(const MyApp());
@@ -10,9 +10,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Widget Projects',
-      home: const ColumnRow(),
+      home: RowColum(), // Update this to use RowColumn
     );
   }
 }
